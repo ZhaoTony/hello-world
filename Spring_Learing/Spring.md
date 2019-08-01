@@ -3,8 +3,8 @@ Building a RESTful Web Service
 
 代码：
 
-@RestController
-public class GreetingController {
+    @RestController
+    public class GreetingController {
 
     private static final String template = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
